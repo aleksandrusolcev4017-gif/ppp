@@ -12,7 +12,7 @@ logging.basicConfig(
 logger=logging.getLogger( __name__ )
 
 # Токен бота
-BOT_TOKEN="8328464730:AAGE5ALBggl4D2kRj8mSS0dA5AP8716okAA"
+BOT_TOKEN=""
 
 # Каналы для подписки (username каналов БЕЗ @)
 CHANNELS=[
@@ -386,4 +386,5 @@ def main() -> None :
 
 
 if __name__ == '__main__' :
+
     main()
